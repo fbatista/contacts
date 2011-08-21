@@ -78,10 +78,10 @@ module Contacts
 
       url = "https://consent.live.com/Delegation.aspx"
       query = {
+        'RU' => target,
         'ps' => 'Contacts.Invite',
-        'ru' => target,
         'pl' => privacy_policy_url,
-        'app' => app_verifier,
+        'appid' => application_id,
       }
       query['appctx'] = context if context
       "#{url}?#{params_to_query(query)}"
