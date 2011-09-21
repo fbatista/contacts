@@ -91,7 +91,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<httparty>, [">= 0"])
     s.add_dependency(%q<hpricot>, [">= 0"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
-    s.add_dependency(%q<oauth>, ["= 0.4.0"])
+    s.add_dependency(%q<oauth>, [">= 0.4.0"])
     s.add_dependency(%q<json>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.1.0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
